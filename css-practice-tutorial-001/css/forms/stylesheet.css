@@ -1,0 +1,63 @@
+/* Styling Web Forms lecture */
+
+#container{
+	width: 600px;
+	margin: 0 auto;
+}
+form{
+
+}
+fieldset{
+	padding: 40px;
+	border: solid 1px #aaa;
+}
+fieldset legend{
+	background: white;
+	padding: 10px;
+	border: solid 1px #aaa;
+}
+
+input[type = "text"],
+input[type = "tel"],
+input[type = "email"],
+textarea
+{
+	padding: 10px;
+	border: solid 1px #454545;
+	display: block;
+	width: 50%;
+	font-size: 14px;
+	color: #777;
+	font-family: Monaco, monospace;
+	text-transform: uppercase; 
+	margin: 0px 0px 20px;
+}
+textarea{
+	resize : none;
+}
+label{
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: red;
+	display: block;
+	width: 46%;
+	color: white;
+	padding: 2%;
+}
+
+input[type = "submit"]{
+	background: orange;
+	border: none;
+	height: 40px;
+	padding: 0 40px;
+	color: white;
+}
+
+input[type = "submit"]:hover{
+	cursor: pointer;
+	border-color: #444;
+}
+input[type = "submit"]:active{
+	border-color: #111;
+	outline-color: red;
+}

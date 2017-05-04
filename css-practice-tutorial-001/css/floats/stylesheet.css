@@ -1,0 +1,45 @@
+#floats{
+	background: #d41;
+}
+#floats #container{
+	background: white;
+	paddingadding: 20px;
+	border: solid 1px red;
+}
+
+#para1{
+	float: left;
+	border:solid 1px green; 
+	width: 400px;
+}
+#para2{
+	float: right;
+	border:solid 1px green; 
+	width: 400px;
+}
+
+#container:after{
+	content: "";
+	display:table;
+	clear: both;
+}
+
+#footer{
+	height: 200px;
+	border:solid 1px green; 
+	clear: both;
+	
+}
+
+
+#para3{
+	float: left;
+	border:solid 1px green; 
+	width: 400px;
+	margin: 20px;
+}
+#footer2{
+	height: 20px;
+	border:solid 1px green; 
+	clear: left;
+}
